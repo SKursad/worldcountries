@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search information about countries </title>
+    <link rel="stylesheet" href="countriesPart2.css">
+</head>
+<body>
+<img src="assets/global-search.jpg" alt="Map of the world" class="search-countries">
+<div class="page-container">
+    <section>
+    <form id="search-form">
+        <input type="text" id="search-country"
+               placeholder="type here the country"/>
+        <button type="submit">Search</button>
+        <a href="index.html">
+            <button onclick="window.location='index.html';"
+                    class="home">Homepage</button>
+        </a>
+        <div id="info"></div>
+        <div id="error-message"></div>
+
+    </form>
+    </section>
+</div>
+    <script type="module" src="countriesPart2.js"></script>
+</body>
+</html>

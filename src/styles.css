@@ -1,8 +1,18 @@
+
+.world-map {
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
 h1 {
-    font-family: Candara;
+    font-family: Candara, sans-serif;
     font-size: 50px;
     text-align: center;
 }
+
 
 h3 {
     display: flex;
@@ -15,48 +25,41 @@ h3 {
     align-content: center;
 }
 
-p {
-    display: flex;
-    padding: 20px 50px;
-    margin: 2px;
-    text-align: center;
-    font-size: 20px;
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    justify-content: start;
+    list-style-type: none;
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: whitesmoke;
 }
 
-#world {
-    list-style-type: none;
-    column-count: 4;
-    max-width: 1000px;
-    border-radius: 100px;
-    border: 1px slategrey;
-    /*padding: 10px;*/
-    display: flex;
-    flex-wrap: wrap;
+footer  {
+    text-align: center;
+}
+
+
+
+.flag {
+    width: 30px;
+    margin: 2px;
+    padding: 5px;
 }
 
 li {
-    list-style-type: none;
-    /*column-rule-style: solid;*/
-    /*columns: fit-content;*/
-    outline: 1px solid red;
-    flex-wrap: wrap;
-    display: inline-block;
-    justify-content: center;
-    margin: 50px;
-    background-color: whitesmoke;
-    box-shadow: 10px 5px 5px red;
-    text-shadow: 2px 4px 8px lightcoral;
-    /*object-fit: cover;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 120px;
+    padding-top: 20px;
 }
 
-.flag {
-    /*height: 50px;*/
-    width: 100px;
-    margin: 0 0 0 50px;
-    /*display: flex;*/
-    justify-content: center;
-    display: inline-block;
-    object-fit: cover;
+li h3, p {
+    margin: 2px;
+    padding: 5px;
 }
 
 .Africa {
